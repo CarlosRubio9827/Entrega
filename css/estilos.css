@@ -1,0 +1,55 @@
+
+body, html{ 
+	margin:0; padding:0;
+ }
+.header{ 
+	border-top:1px solid white;background:white; color:#333; height:150px; width:100%; font-family: 'Lobster', cursive; text-align:center
+}
+.menu{ 
+	height:80px; width:100%; background:#333; color:white; text-align:center
+}
+.wrapper{
+ height:2000px; width:100%; padding-top:20px
+}
+
+.fixed{position:fixed; top:0}
+
+  .jumbotron{
+  margin-top: 20px;
+  background-image: url("https://images.pexels.com/photos/89773/wolf-wolves-snow-wolf-landscape-89773.jpeg?auto=compress&cs=tinysrgb&h=350");
+  background-size: cover;
+  color: white;
+} 
+
+
+/*cover*/
+
+#cover{
+	background: #222 url(../img/Fondo.jpg) center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#cover-texto{
+	width: 100%;
+}
+
+#cover-texto .form-inline{
+	padding: 5rem 0;
+}
+
+#acerca-de{
+	background: url("../img/1.jpg") center center no-repeat;
+	background-size: cover; 
+}
+
+.texto-acerca-de{
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
+}
+
